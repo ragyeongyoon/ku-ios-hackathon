@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qq9-eV-chS">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Diary-->
+        <scene sceneID="pTj-8L-aOb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Diary" id="5EG-fF-BCE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="AVk-5z-3ZV"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MHi-fV-xJp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1155.2" y="1409.5952023988007"/>
+        </scene>
+        <!--Manage-->
+        <scene sceneID="D02-10-qXq">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Manage" id="T49-0V-cSl" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="SII-4i-pJl"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KWs-hv-XOT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1576" y="1414.992503748126"/>
+        </scene>
+        <!--Board-->
+        <scene sceneID="sN0-2p-GNL">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Board" id="CGk-AN-9Fs" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="hKE-LU-Fta"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fz2-Sc-iIl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2004.8" y="1412.2938530734634"/>
+        </scene>
+        <!--Diary-->
+        <scene sceneID="yXm-su-v8y">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Diary" id="PHz-Yo-Huq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Lpu-NV-Jbs"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tGl-b5-KrP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-576" y="2081"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WkC-wE-Itu">
+            <objects>
+                <viewController id="qq9-eV-chS" customClass="ViewController" customModule="PlantingShare" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fLR-mw-IRY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gdU-Vc-BeV">
+                                <rect key="frame" x="126" y="203" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hP8-vb-ZX5">
+                                <rect key="frame" x="127" y="280" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUL-tf-IXd">
+                                <rect key="frame" x="72" y="347" width="218" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Haq-d0-Utv">
+                                <rect key="frame" x="164" y="422" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="checkServer:" destination="qq9-eV-chS" eventType="touchUpInside" id="ZyN-7h-56w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XkW-6h-66M">
+                                <rect key="frame" x="165" y="475" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="Gnt-Lg-VsW" kind="presentation" id="i9b-wd-ga7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="비밀번호" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0n-Dy-rXa">
+                                <rect key="frame" x="35" y="283" width="59" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="아이디" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rdM-zu-kWl">
+                                <rect key="frame" x="38" y="206" width="45" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="F6O-g8-2kU"/>
+                    </view>
+                    <connections>
+                        <outlet property="alertMessage" destination="PUL-tf-IXd" id="ha7-WJ-KOH"/>
+                        <outlet property="idTextField" destination="gdU-Vc-BeV" id="lsP-cs-1Ph"/>
+                        <outlet property="logInButton" destination="Haq-d0-Utv" id="qIA-jn-d6Y"/>
+                        <outlet property="pwTextField" destination="hP8-vb-ZX5" id="f9G-Wp-lnW"/>
+                        <segue destination="Rgc-qc-WQq" kind="presentation" identifier="ShowMainTab" id="6xE-7U-B7n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gvA-aE-4uc" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1322" y="-82"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="gPv-LI-MuY">
+            <objects>
+                <viewController id="KRg-aY-apz" customClass="ThirdViewController" customModule="PlantingShare" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e7p-Bn-V7M">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xqh-h6-hix">
+                                <rect key="frame" x="47" y="151" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="UMI-fc-kxR" appends="YES" id="Z3q-DM-zFd"/>
+                                </connections>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="아이디" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PzL-1z-nVP">
+                                <rect key="frame" x="41" y="371" width="45" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="비밀번호" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X8g-Ou-UjY">
+                                <rect key="frame" x="41" y="445" width="59" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="비밀번호 확인" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3kj-OQ-xKM">
+                                <rect key="frame" x="32" y="523" width="93" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hD0-lc-DLd">
+                                <rect key="frame" x="144" y="441" width="124" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textFieldFilled:" destination="KRg-aY-apz" eventType="editingChanged" id="FfQ-Vp-7Ka"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OjP-Fp-aM3">
+                                <rect key="frame" x="145" y="520" width="126" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textFieldFilled:" destination="KRg-aY-apz" eventType="editingChanged" id="Xuu-t2-a7R"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcM-jX-Nds">
+                                <rect key="frame" x="73" y="588" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="취소"/>
+                                <connections>
+                                    <action selector="cancel2:" destination="KRg-aY-apz" eventType="touchUpInside" id="AaM-h8-Hv0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NqE-Hn-YbE">
+                                <rect key="frame" x="281" y="587" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="완료"/>
+                                <connections>
+                                    <action selector="nextAndSendingToServer:" destination="KRg-aY-apz" eventType="touchUpInside" id="4oa-CS-mww"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Wk-0A-gnb">
+                                <rect key="frame" x="144" y="360" width="123" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textFieldFilled:" destination="KRg-aY-apz" eventType="editingChanged" id="ngp-Dk-Cdq"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="20N-Cq-9vf"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kH2-Gb-mDJ"/>
+                    <connections>
+                        <outlet property="cancel1Button" destination="pcM-jX-Nds" id="uKp-55-hA4"/>
+                        <outlet property="idSignField" destination="4Wk-0A-gnb" id="6dP-ES-nRv"/>
+                        <outlet property="idSignLabel" destination="PzL-1z-nVP" id="1ah-sc-ahv"/>
+                        <outlet property="nextButton" destination="NqE-Hn-YbE" id="068-TU-am7"/>
+                        <outlet property="profileImage" destination="Xqh-h6-hix" id="gx6-eK-EwJ"/>
+                        <outlet property="pwConfirmField" destination="OjP-Fp-aM3" id="goH-GD-5Zf"/>
+                        <outlet property="pwConfirmLabel" destination="3kj-OQ-xKM" id="leJ-RV-yS7"/>
+                        <outlet property="pwSignField" destination="hD0-lc-DLd" id="XjQ-k9-NGk"/>
+                        <outlet property="pwSignLabel" destination="X8g-Ou-UjY" id="YPr-8W-xPo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BYy-QY-C28" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="UMI-fc-kxR">
+                    <connections>
+                        <action selector="touchUpSelectImageButton:" destination="KRg-aY-apz" id="RL6-RD-v6r"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-767" y="768"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="maf-06-E2P">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Gnt-Lg-VsW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tuO-D5-WoB">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="KRg-aY-apz" kind="relationship" relationship="rootViewController" id="gd4-wg-rCw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J3P-Em-7pB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1606" y="789"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="jnZ-9y-b1v">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBar" automaticallyAdjustsScrollViewInsets="NO" id="Rgc-qc-WQq" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Kf6-7f-a1R">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="5EG-fF-BCE" kind="relationship" relationship="viewControllers" id="lVa-Xi-Wx7"/>
+                        <segue destination="T49-0V-cSl" kind="relationship" relationship="viewControllers" id="u1O-l5-477"/>
+                        <segue destination="CGk-AN-9Fs" kind="relationship" relationship="viewControllers" id="P4A-Gg-siB"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o2q-1g-C8y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="81" y="-141"/>
+        </scene>
+    </scenes>
+</document>
