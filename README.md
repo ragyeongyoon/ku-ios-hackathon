@@ -40,5 +40,30 @@ Built using **Swift** and **UIKit**, the app supports plant registration, status
 
 ## 📂 Folder Structure
 
+PlantShare/
+├── ViewController.swift
+├── GrowthLog.swift
+├── Models/
+├── Views/
+├── Assets.xcassets/
+└── LaunchScreen.storyboard
+
+yaml
+복사
+편집
+
+*(정확한 구조는 실제 코드 기준으로 업데이트해주세요)*
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# 1. Clone this repository
+git clone https://github.com/ragyeongyoon/ku-ios-hackathon
+
+# 2. Open with Xcode
+cd PlantShare
+open PlantShare.xcodeproj
 
 
