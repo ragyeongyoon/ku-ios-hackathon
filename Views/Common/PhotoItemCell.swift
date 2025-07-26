@@ -9,7 +9,6 @@
 import UIKit
 
 class PhotoItemCell: UICollectionViewCell {
-    
     var img = UIImageView()
     
     override init(frame: CGRect) {
