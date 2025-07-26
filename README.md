@@ -10,18 +10,18 @@ Built using **Swift** and **UIKit**, the app supports plant registration, growth
 
 ## ✨ Features
 
-### ✅ 1. Plant Management
-- 식물 등록, 사진 업로드
-- 달력 기반 성장 기록, 메모 기능
-- 물주기/일조량 등 사용자 맞춤 관리 리마인드
+### 1. Plant Management
+- 식물 등록, 사진 업로드  
+- 달력 기반 성장 기록, 메모 기능  
+- 물주기/일조량 등 사용자 맞춤 관리 리마인드  
 
-### ✅ 2. Member System
-- Firebase 이메일 회원가입 / 로그인
-- 사용자별 식물 관리 내역 저장 및 분리
+### 2. Member System
+- Firebase 이메일 회원가입 / 로그인  
+- 사용자별 식물 관리 내역 저장 및 분리  
 
-### ✅ 3. Community
-- 게시판에 식물 키우기 팁 공유
-- 다른 사용자 피드 열람 및 간단한 소통
+### 3. Community
+- 게시판에 식물 키우기 팁 공유  
+- 다른 사용자 피드 열람 및 간단한 소통  
 
 ---
 
@@ -62,3 +62,21 @@ PlantShare/
 ├── Podfile / Podfile.lock       # CocoaPods 의존성 설정
 ├── .gitignore                   # Git 제외 파일 설정
 └── README.md
+```
+
+## 🚀 Getting Started
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/ragyeongyoon/ku-ios-hackathon.git
+
+# 2. Navigate into the project directory
+cd ku-ios-hackathon
+
+# 3. Install dependencies (if using CocoaPods)
+pod install
+
+# 4. Open the project with Xcode
+open PlantingShare.xcworkspace
+```
+
