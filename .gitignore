@@ -1,0 +1,73 @@
+# macOS 시스템 파일
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+__MACOSX/
+
+# Xcode 프로젝트 설정/캐시
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+DerivedData/
+build/
+*.xcworkspace
+!default.xcworkspace
+
+# Swift 패키지 관리자 (SPM)
+/.swiftpm/
+/.build/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+Podfile~
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/screenshots/
+fastlane/test_output/
+fastlane/.env
+
+# 앱 배포 설정 파일
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# 기타 편집기 설정
+*.swp
+*.lock
+*~.nib
+*.orig
+
+# 로그 파일
+*.log
+
+# 아카이브
+*.zip
+*.tar.gz
+*.tgz
+
+# SwiftLint
+.swiftlint.yml
+.swiftlint.yml.tmp
+
+# Firebase
+GoogleService-Info.plist
+
+# 환경 변수
+.env
+.env.*
+
+# xcresult (테스트 결과 폴더)
+*.xcresult
