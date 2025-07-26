@@ -62,18 +62,3 @@ PlantShare/
 ├── Podfile / Podfile.lock       # CocoaPods 의존성 설정
 ├── .gitignore                   # Git 제외 파일 설정
 └── README.md
-🚀 Getting Started
-bash
-복사
-편집
-# 1. Clone the repository
-git clone https://github.com/ragyeongyoon/ku-ios-hackathon.git
-
-# 2. Navigate into the project directory
-cd ku-ios-hackathon
-
-# 3. Install dependencies (if using CocoaPods)
-pod install
-
-# 4. Open the project with Xcode
-open PlantingShare.xcworkspace
